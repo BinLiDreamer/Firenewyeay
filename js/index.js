@@ -17,7 +17,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||新|年|快|乐|憨|憨|宝|贝|祝你事事顺意|希望你喜欢这个跨年仪式|2023 HAPPY NEW YEAR');
+      S.UI.simulate('|#countdown 3||新|年|快|乐|憨|憨|宝|贝|祝你事事顺意|开心幸福|2023 心想事成');
     }
 
     S.Drawing.loop(function () {
